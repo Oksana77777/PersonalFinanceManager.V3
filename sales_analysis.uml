@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/SK/Documents/JAVA/Netology/sales_analysis</OriginalElement>
+  <nodes>
+    <node x="-36.0" y="312.0">SocketServerRunner</node>
+    <node x="-159.24999999999997" y="143.0">DataHandler.SalesData</node>
+    <node x="-136.5" y="231.0">DataHandler.AnalysisResult</node>
+    <node x="-338.25" y="143.0">DataHandler.SalesRecord</node>
+    <node x="-399.0" y="-56.0">DataHandler</node>
+    <node x="-399.0" y="312.0">DataManagement</node>
+    <node x="-253.99999999999997" y="-142.0">DataHandler.AllSalesData</node>
+    <node x="-399.0" y="504.0">Main</node>
+    <node x="-381.25" y="231.0">DataHandler.AllAnalysisResults</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DataHandler.AnalysisResult" target="DataHandler" relationship="INNER_CLASS">
+      <point x="43.75" y="-18.0" />
+      <point x="-5.25" y="205.0" />
+      <point x="-8.75" y="205.0" />
+      <point x="-8.75" y="117.0" />
+      <point x="-174.0" y="117.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="DataHandler.SalesRecord" target="DataHandler" relationship="INNER_CLASS">
+      <point x="0.0" y="-18.0" />
+      <point x="-258.75" y="117.0" />
+      <point x="-174.0" y="117.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="DataHandler" target="DataHandler.AllSalesData" relationship="TO_ONE">
+      <point x="112.5" y="-73.5" />
+      <point x="-61.5" y="-81.0" />
+      <point x="-134.0" y="-81.0" />
+      <point x="39.99999999999994" y="18.0" />
+    </edge>
+    <edge source="DataHandler.AnalysisResult" target="DataHandler.SalesData" relationship="TO_ONE">
+      <point x="-43.75" y="-18.0" />
+      <point x="-92.75" y="205.0" />
+      <point x="-89.25" y="205.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="DataHandler.AllAnalysisResults" target="DataHandler" relationship="INNER_CLASS">
+      <point x="-50.75" y="-18.0" />
+      <point x="-330.5" y="205.0" />
+      <point x="-348.75" y="205.0" />
+      <point x="-348.75" y="117.0" />
+      <point x="-174.0" y="117.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="DataHandler.AllSalesData" target="DataHandler" relationship="INNER_CLASS">
+      <point x="-40.0" y="18.0" />
+      <point x="-213.99999999999997" y="-81.0" />
+      <point x="-286.5" y="-81.0" />
+      <point x="-112.5" y="-73.5" />
+    </edge>
+    <edge source="DataHandler.AllAnalysisResults" target="DataHandler.SalesData" relationship="TO_ONE">
+      <point x="50.75" y="-18.0" />
+      <point x="-228.99999999999997" y="205.0" />
+      <point x="-89.25" y="205.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="DataHandler.SalesData" target="DataHandler" relationship="INNER_CLASS">
+      <point x="-5.6843418860808015E-14" y="-18.0" />
+      <point x="-89.25" y="117.0" />
+      <point x="-174.0" y="117.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.185792349726776" showDependencies="true" x="-96.0" y="224.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
